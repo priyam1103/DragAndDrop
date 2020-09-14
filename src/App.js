@@ -3,9 +3,11 @@ import "./App.css";
 
 const App = () => {
   const [task, setTask] = React.useState([
-    { name: "priyam", category: "wip", bgcolor: "yellow" },
-    { name: "poddar", category: "wip", bgcolor: "red" },
-    { name: "podd", category: "complete", bgcolor: "skyblue" },
+    { name: "drag drop", category: "wip", bgcolor: "yellow" },
+    { name: "Buy fruits", category: "wip", bgcolor: "red" },
+    { name: "write codes", category: "complete", bgcolor: "skyblue" },
+    { name: "Learn kendo", category: "complete", bgcolor: "yellow" },
+    { name: "Watch movie", category: "wip", bgcolor: "yellow" },
   ]);
   let tasks = [];
   let taskss = {
